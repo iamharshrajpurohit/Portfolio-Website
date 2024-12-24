@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cedarville Cursive", serif;
+} 
+body{
+    background-color: rgb(21, 19, 19);
+    color: wheat;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 49, 49);
+    height: 85px;
+}
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 25px;
+    
+  }
+  nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    
+  }
+  nav ul li a:hover{
+ color: black;
+ font-size: 1.2rem;
+    
+  }
+.leftnav {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+#mainsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftsection{
+    margin-top: 50px;
+   
+    height: 50%;
+    width: 30%;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+.rightsection{
+    margin-top: 50px;
+
+   
+    
+}
+#myphoto{
+  border: solid;
+  border-radius: 205px;
+  border-color: wheat;
+  width: 350px;
+}
+.div-button{
+  width: 141px;
+  height: 40px;
+  background-color: wheat;
+  border-radius: 18px;
+  border: white;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 1rem;
+}
+.button:active {
+  background-color: #bdbdbd;
+  box-shadow: 0 5px #ffffff;
+  transform: translateY(4px);
+}
+#intro{
+    color:white;
+    font-size: 2rem;
+}
+#intro-lines{
+  font-size:20px;
+}
+#element{
+  color: white;
+  font-size: 2rem ;
+}
+.secondsection{
+  margin-top: 75px;
+  margin-left: 160px;
+}
+#hr1{ 
+  margin-top : 75px;
+  height: 20px;
+  background-color: wheat;
+  border: 0;
+}
+.abovepastexperience{
+  color:white;
+    font-size: 2rem;
+  }
+h1{
+  margin-left: auto;
+  
+}
+#pic-above-pastexperience{
+  width: 99px;
+  right: 34px;
+    position: relative;
+    top: -66px;
+}
+
+.secondsection   .box {
+  width: 80vw;
+  height: 2px;
+  display: flex;
+  margin: 56px 0;
+  background-color: white;
+
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 175px;
+}
+.secondsection .verticaldescription {
+  left: -60px;
+  width: 15vw;
+position: relative;
+display: flex;
+}
+.secondsection .verticaltitle {
+  display: flex;
+  position: relative;
+  width: 10vw;
+  right: 33px;
+}
+.verticaltitle-timespan{
+  font-size: 1rem;
+}
+
+.footer{
+  background-color: rgb(53, 49, 49);
+  position: relative;
+  bottom: -400px;
+  margin-top: 59px;
+
+}
+
+footer ul{
+  list-style: none;
+}
+.footersecond{
+  display: flex;
+  }
+.footerfourth{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: smaller;
+  color: whitesmoke;
+  padding: bottom  5px;
+}
+
+ @media screen and (max-width:500px){
+ body{
+   background-color: rgb(21, 19, 19);
+}  
+ nav{
+  flex-direction: column;
+ }
+ nav ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px 6px;
+ }
+ .rightnav{
+  margin: 0;
+  margin-left: -16px;
+ }
+ nav {
+  height: 120px;
+  width: 125vw;
+ }
+ #mainsection{
+  flex-direction: column-reverse;
+}
+.leftsection{
+  width: 50%;
+}
+.secondsection   .box{
+  flex-direction: column-reverse;
+  height: 5px;
+}
+.secondsection{
+  display: none;
+}
+.footer{
+  width: 125vw;
+  bottom: 0px;
+}
+
+
+
+
+
+
+
+ }
+
+
+  .playwrite-tz-guides-regular {
+    font-family: "Playwrite TZ Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
